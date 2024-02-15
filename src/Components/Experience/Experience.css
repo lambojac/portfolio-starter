@@ -1,0 +1,36 @@
+.experience{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap:13rem;
+    height:60vh;
+    
+}
+
+.achievement{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle{
+    width:4rem;
+    height:4rem;
+    background: rgb(221, 207, 13);
+    border-radius:50%;
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size:1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.circle::before{
+    border-radius: 100%;
+}
+.achievement span:nth-of-type(2){
+    color:orange;
+    
+}
