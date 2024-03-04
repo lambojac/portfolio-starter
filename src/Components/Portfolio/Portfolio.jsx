@@ -29,7 +29,9 @@ function Portfolio() {
                 </a>
             </SwiperSlide>
             <SwiperSlide>
+                <a href="https://stonegrowth.onrender.com/">
                 <img src={MusicApp} alt=""/>
+                </a>
             </SwiperSlide>
             <SwiperSlide>
                <img src={Hoc} alt=""/> 
